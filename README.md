@@ -1,4 +1,4 @@
-**Spring IoC 管理 bean 的原理：**
+<font color= #A52A2A  size=6 face="黑体">SpringIoC管理bean的原理：</font> 
 
 1、通过 Resource 对象加载配置文件
 
@@ -6,11 +6,11 @@
 
 3、解析 bean 元素，id 作为 bean 的名字，class 用于反射得到 bean 的实例：
 
-​	**注意：此时，bean 类必须存在一个无参数构造器(和访问权限无关)；**
+<font color= #A52A2A  size=4 face="黑体">注意：此时，bean 类必须存在一个无参数构造器(和访问权限无关)；</font> ​
 
 4、调用 getBean 方法的时候，从容器中返回对象实例；
 
-**结论：就是把代码从 JAVA 文件中转移到了 XML 中。** 
+<font color= #A52A2A  size=6 face="黑体">结论：就是把代码从JAVA文件中转移到了XML中。</font>
 
 ```
 //模拟Spring IoC容器操作
